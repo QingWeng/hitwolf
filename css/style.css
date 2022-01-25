@@ -1,0 +1,63 @@
+/* 设计游戏主界面样式 */
+#container{
+		width: 320px;
+		height: 480px;
+		/* border: 0px  solid  #ff0000; */
+		margin: auto;
+		background: url(../imgs/game_bg.jpg);
+		border-radius: 5px;
+		position: relative; /* 让子容器中的HTML布局参考父容器 */
+}
+/* 设置记分牌的样式、位置、外观 */
+#fraction{
+	position: absolute;
+	left: 60px;
+	top: 10px;
+	color: yellow;
+	font-weight: bold;
+	font-size: 18px;
+}
+/* 设置时间进度条样式 */
+#time{
+	position: absolute;
+	left: 63px;
+	top: 66px;
+	height: 16px;
+	width: 180px;
+	background: orangered;
+	border-radius: 18px;
+}
+
+/* 设计三个按钮div样式 */
+#startMenu,#overGameMenu,#reloadMenu{
+	width: 320px;
+	height: 35px;
+	text-align: center;
+	position:absolute;
+	left: 0px;
+	top: 200px;
+	
+}
+/* /单独设置重新开始位置 */
+#reloadMenu{
+		top: 240px;
+}
+/* 设置结束按钮  重新开始隐藏 */
+#reloadMenu,#overGameMenu{
+	display: none;
+}
+/* 设置三个按钮样式 */
+#start,#overGame,#reload{
+	width: 100;
+	height: 35px;
+	border: none;
+	border-radius: 5px;
+	background:orangered;
+	color: white;
+
+	font-size: 16px;
+}
+
+#start:hover,#overGame:hover,#reload:hover{
+	background: orange;
+}
