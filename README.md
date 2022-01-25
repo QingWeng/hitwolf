@@ -10,20 +10,7 @@
 2游戏界面设计
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![1643093129808](https://user-images.githubusercontent.com/93512384/150949676-1e83ceda-1f07-4e1a-945f-5314a0c5a40c.png)
 
 
 
